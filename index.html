@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 FORM</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/c92bcf70f6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="form">
-        <div class="tittle">
-            <h1>Payment Form Example</h1>
+<!-- Formulario completo -->
+    <div class="completeForm">
+        <div class="formTittle">
+            <h1 class="tittle">Payment Form Example</h1>
         </div>
         <div>
-            <div> Some fields are missing </div>
+            <div class="request"> 
+                <span>Some fields are missing</span> 
+            </div>
             <div class="datacard">
                 <div class="datacard">
                     <div class="card">
@@ -45,9 +50,10 @@
                 </div>
             </div>
         </div>
-        <div class="bottons">
-            <button class="cancel"> Cancel </button>
-            <button class="send"> Send </button>
+        <!-- Contenedor de los botones de envio -->
+        <div class="buttons">
+            <button type="button" class="btn btn-secondary">Cancel</button>
+            <button type="button" class="btnSend"> Send </button>
         </div>
     </div>
 </body>
