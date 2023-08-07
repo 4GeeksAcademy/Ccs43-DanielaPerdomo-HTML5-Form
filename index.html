@@ -13,7 +13,7 @@
   <script src="https://kit.fontawesome.com/c92bcf70f6.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body >
   <!-- Inicio Formulario completo -->
   <div class="card border m-3">
     <div class="card-header bg-light">
@@ -25,21 +25,21 @@
       <strong> Some Fields are missing </strong>
     </div>
     <!-- Inicio de Formulario para Datos de la Tarjeta -->
-    <div class="infoCard m-3 d-flex flex-row bd-highlight">
-      <form class="row">
-        <div class="me-auto m-1  flex-fill bd-highlight">
+    <div class="infoCard m-3">
+      <form class="row g-3">
+        <div class="col-md-6  ">
           <label class="form-label"><strong> Nº Card </strong></label>
-          <input class="form-control">
+          <input class="form-control"placeholder="XXXXXXXXXXX">
         </div>
-        <div class="m-1 flex-fill bd-highlight">
+        <div class="col-md-4 ">
           <label class="form-label"><strong> Nº CVC </strong></label>
-          <input class="form-control">
+          <input class="form-control" placeholder="0000">
         </div>
-        <div class="m-1 flex-fill bd-highlight">
+        <div class="col-md-2">
           <label class="form-label"><strong> Amount </strong></label>
           <div class="input-group has-validation">
             <span class="input-group-text"><strong> $ </strong></span>
-            <input class="form-control">
+            <input class="form-control" placeholder="Amount">
           </div>
         </div>
       </form>
@@ -69,7 +69,11 @@
         <label for="validationCustom04" class="form-label"><strong> State </strong></label>
         <select class="form-select" id="validationCustom04" required>
           <option selected disabled value="">Pick a state</option>
-          <option>...</option>
+          <option>Distrito Capital</option>
+          <option>Miranda</option>
+          <option>Sucre</option>
+          <option>Yaracuy</option>
+          <option>Zulia</option>
         </select>
       </div>
       <div class="col-md-3 m-1 flex-fill bd-highlight">
@@ -85,7 +89,7 @@
         <ul class="list-group list-group-horizontal-md ">
           <li class="list-group-item bg-secondary text-white">
             <div class="form-check">
-              <input class="form-check-input" type="radio">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label">
                 <i class="fa-brands fa-cc-mastercard"></i>
               </label>
@@ -93,7 +97,7 @@
           </li>
           <li class="list-group-item bg-secondary text-white">
             <div class="form-check">
-              <input class="form-check-input" type="radio">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label" for="flexRadioDefault2">
                 <i class="fa-brands fa-cc-visa"></i>
               </label>
@@ -101,7 +105,7 @@
           </li>
           <li class="list-group-item bg-secondary text-white">
             <div class="form-check">
-              <input class="form-check-input" type="radio">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label" for="flexRadioDefault2">
                 <i class="fa-brands fa-cc-diners-club"></i>
               </label>
@@ -109,7 +113,7 @@
           </li>
           <li class="list-group-item bg-secondary text-white">
             <div class="form-check">
-              <input class="form-check-input" type="radio">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label" for="flexRadioDefault2">
                 <i class="fa-brands fa-cc-amex"></i>
               </label>
